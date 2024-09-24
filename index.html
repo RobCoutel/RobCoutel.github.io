@@ -53,7 +53,7 @@
 									I find beauty in the emergence of complex properties from a simple set of rules. For that reason, I am a big fan of strategy board games such as chess and Go. Computer science, and logic in particular is a perfect example of this phenomenon.</p>
 
 								<h3>Education</h3>
-								<h4>Oct 2023 - Now, Ph.D in Computer Science, Technical University of Vienna, Austria</h4>
+								<h4>Oct 2023 - Now, Ph.D in Computer Science, TU Wien, Austria</h4>
 								<p style="margin-top:-20px;">
 									Research on efficient data structures and algorithms for automated reasoning.</p>
 								<h4>Sept 2021 - Sept 2023, Master in Computer Science and Engineering, University of Liège, Belgium</h4>
@@ -81,16 +81,20 @@
 								<h2 class="major">Work</h2>
 								<h3>Research</h3>
 								<span class="image main"><img src="images/CADE29.jpg" alt="" /></span>
+								<h4>Ongoing Projects</h4>
 								<p>
-									I am currently working on the <a href="https://github.com/vprover/vampire">Vampire</a> automated theorem prover. More specifically, I have worked on a SAT-based procedure for checking subsumption and subsumption resolution in the first-order theorem framework. The new method showed a speed-up of up to 36% compare to the previous implementation.</p>
+									I am part of the <a href="https://github.com/vprover/vampire">Vampire</a> team and am interested in the theoretical and practical aspects of First-Order Theorem Proving.</p>
 								<p>
-									I am also specialized in Chronological Backtracking (CB) in SAT solving. During my thesis, I explored the different variations of CB and formalized their properties.
-									Armed with this knowledge, I am working on a new SAT solver, called NapSAT, whose design was created to support different backtracking strategies. A new algorithm was presented to improve the handling of missed lower implications in CB. We also collaborated with the University of Freiburg to implement this technique in CaDiCaL.
-									A paper presenting the ideas was accepted at the SAT 2024 conference and is available <a href="publications/Lazy_Reimplication_in_Chronological_Backtracking.pdf">here</a>. You can check out my tool on <a href="https://github.com/RobCoutel/NapSAT">GitHub</a>.</p>
+									Further, I am maintaining <a href="https://github.com/RobCoutel/NapSAT">NapSAT</a>, a SAT solver written to support variants of Chronological Backtracking. We are working in collaboration with Pascal Fontaine at the University of Liège to integrate NapSAT in an SMT solver.</p>
+								<p>
+									I started working on a probability reasoner for SMT solvers. The goal is to assert whether some probabilistic statements are consistent or not. In the latter, the module should be able to provide a conflicting clause summarizing the inconsistency. There is unfortunately no public implementation yet, since the project is still in its infancy.</p>
+								<h4>Finished projects</h4>
+								<p>
+									During my research internship at the TU Wien, and during my first year of Ph.D., I worked on the <a href="https://github.com/vprover/vampire">Vampire</a> automated theorem prover's Subsumption and Subsumption Resolution procedures. We improved the speed of the inference engine by 34% using a tailored SAT encoding. The results were presented at CADE-29 (<a href="publications/SAT-Based Subsumption Resolution.pdf">here</a>) and an extended version was accepted for publication in the FMSD journal (<a href="publications/SAT_Solving_for_Variants_of_First-Order_Subsumption.pdf">camera ready</a>)</p>
+								<p>
+									During my master thesis and my first year of Ph.D., I specialized in Chronological Backtracking (CB) in SAT solving. I developed a new SAT solver from scratch, <a href="https://github.com/RobCoutel/NapSAT">NapSAT</a>. We developed a new variant of CB called "Lazy Strong Chronological Backtracking" that was published at SAT (<a href="publications/Lazy_Reimplication_in_Chronological_Backtracking.pdf">here</a>). We also collaborated with the University of Freiburg to implement this technique in CaDiCaL.</p>
 
 								<h3>Community Service</h3>
-								<p>
-									Having just started my Ph.D, I have not yet contributed a lot to the community, but I expect this list to grow in the future. Here are some of the things I have done so far:
 								<ul>
 									<li>2024, Local helper for the 18th International Conference on Reachability Problems, hosted in Vienna</li>
 									<li>2024, Subreviewer for SCSS 2024</li>
@@ -98,6 +102,8 @@
 
 								<h3>Scientific Activities</h3>
 								<ul>
+									<li>Sep 2024, <b>16th Alpine Verification Meeting</b><br>
+										I presented the debugging interface of <a href="https://github.com/RobCoutel/NapSAT">NapSAT</a> to advocate the observer pattern for debugging complex algorithms.</li>
 									<li>Aug 2024, <b>27th International Conference on Theory and Applications of Satisfiability Testing</b><br>
 										I presented our paper on lazy reimplication in chronological backtracking at the SAT conference in India.</li>
 									<li>Aug 2024, <b>15th Pragmatics of SAT International Workshop</b><br>
@@ -192,12 +198,13 @@
 								<h3>Teaching at University of Liège</h3>
 								I was a tutor for several classes during my studies, both in English and in French. Here are some of the classes I tutored:
 								<ul>
-									<li>2023: Organisation des ordinateurs by Pr. Bernard Boigelot (Fr)</li>
-									<li>2022-2023: Parallel Programming by Pr. Pascal Fontaine</li>
-									<li>2022: Complément d'informatique by Pr. Pierre Geurts (Fr)</li>
+									<li>2023: Organisation des ordinateurs by Pr. Bernard Boigelot*</li>
+									<li>2022-2023: Parallel programming by Pr. Pascal Fontaine</li>
+									<li>2022: Complément d'informatique by Pr. Pierre Geurts*</li>
 									<li>2021: Heat Transfer by Pr. Pierre Dewallef and Pr. Vincent Terrapon</li>
-									<li>2020: Physique II: Electricité et électromagnétisme by Pr. Hervé Caps (Fr)</li>
+									<li>2020: Physique II: Electricité et électromagnétisme by Pr. Hervé Caps*</li>
 								</ul>
+								* The classes were in French.
 							</article>
 
 						<!-- Hobbies -->
